@@ -1,0 +1,14 @@
+<TouchableOpacity
+        style={styles.kekgomb}
+        onPress={async ()=>this.szavazat(item.film_id)}
+      >
+        <Text style={{color:"black",fontWeight:"bold",fontSize:15}}  >Új napirend kialakítása</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.kekgomb}
+        onPress={async ()=>this.szavazat(item.film_id)}
+      >
+        <Text style={{color:"black",fontWeight:"bold",fontSize:15}}  >Tápérték táblázat</Text>
+      </TouchableOpacity>
+
+      
